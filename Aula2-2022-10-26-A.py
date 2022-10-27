@@ -24,5 +24,3 @@ else:
 genero = input("Qual gênero você se identifica mais? Coloque M para masculino ou F para feminino: ")
 if idade >= 18 and genero == "M":
   print("você é maior de idade, já pode beber ou dirigir ... e precisa/precisou prestar serviço militar obrigatório")
-
-
