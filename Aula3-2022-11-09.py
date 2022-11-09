@@ -40,11 +40,16 @@ print(frutas[2])
 print(frutas[3])
 #print(frutas[4])
 
-print("Exemplo de frutas com While")
+print("Exemplo de frutas com While:")
 frutas.append("uva")
 
-i=0
+i=0 # i de index
 while(i<len(frutas)):
   print(frutas[i])
   i=i+1
+
+print("Exemplo das frutas com FOR:")
+for fruta in frutas:
+  print(fruta)
+
 
