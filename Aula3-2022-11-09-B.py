@@ -35,4 +35,18 @@ for valor in valores:
   print(f"O imposto de {valor} é {calcular_imposto(valor)}")
 
 
+#Declarar uma função calcular_imposto_aliquota que recebe dois parâmetros: o preço do produto e a alíquota de imposto a ser aplicada e retorna o imposto calculado. Se a aliquota não for informada, utilize 7% como padrão.
+def calcular_imposto_aliquota(valor, aliquota=7):
+  imposto = valor * aliquota / 100
+  return imposto
+
+for valor in valores:
+  print(f"O imposto de {valor} é {calcular_imposto_aliquota(valor)}")
+
+for valor in valores:
+  print(f"O imposto de {valor} é {calcular_imposto_aliquota(valor,7)}")
+
+# Se a alíquota for 10%
+for valor in valores:
+  print(f"O imposto de {valor} é {calcular_imposto_aliquota(valor,10)}")
 
